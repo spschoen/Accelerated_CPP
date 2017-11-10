@@ -5,7 +5,7 @@
 int main() {
     std::cout << "Please enter first name: ";
     
-    // This has to be one-liner-able
+    // Seriously this has to be one-linerable
     std::string name;
     std::cin >> name;
     
@@ -16,6 +16,7 @@ int main() {
 
     // std::cout << "Hello, " << name << "!" << std::endl;
     
+    // Actual printing.
     std::cout << std::endl;
     std::cout << first << std::endl;
     std::cout << second << std::endl;
